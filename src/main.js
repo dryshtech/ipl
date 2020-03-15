@@ -1,6 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './../node_modules/bulma/css/bulma.css';
+import { MdButton, MdRipple, MdCard } from 'vue-material/dist/components'
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/black-green-light.css'
+
+Vue.use(MdButton)
+Vue.use(MdRipple)
+Vue.use(MdCard)
+
 import store from './store';
 
 Vue.config.productionTip = false
